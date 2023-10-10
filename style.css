@@ -122,15 +122,21 @@ body{
 }
 
 .table-activity caption{
-    padding: 10px;
-    font-weight: bold;
-    font-size: 14px;
-    text-align: left;
+    padding: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.table-activity td:hover{
+    background-color: coral;
 }
 
 .table-activity th, .table-activity td{
-    border: 1px solid #000000;
+    border-bottom: 1px solid #ddd;
     text-align: center;
+    height: 50px;
 }
 
 .table-activity th{
@@ -138,7 +144,7 @@ body{
 }
 
 .table-activity tfoot{
-    background-color: #bdbaba;
+    background-color: #babdbd;
 }
 
 .father-color{
