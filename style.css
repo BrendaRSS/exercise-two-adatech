@@ -121,6 +121,13 @@ body{
     height: 300px;
 }
 
+.table-activity caption{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+
 .table-activity th, .table-activity td{
     border: 1px solid #000000;
     text-align: center;
